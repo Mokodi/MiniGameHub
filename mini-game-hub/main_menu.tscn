@@ -1,0 +1,24 @@
+[gd_scene format=3 uid="uid://ibvr2xvrxdn5"]
+
+[ext_resource type="PackedScene" uid="uid://dud5evupphicd" path="res://Scenes/MainMenu.tscn" id="1_7vrkn"]
+[ext_resource type="PackedScene" path="res://Scenes/UI/GameButton.tscn" id="2_fu7sn"]
+
+[node name="MainMenu" unique_id=206096604 instance=ExtResource("1_7vrkn")]
+
+[node name="Title" parent="." index="0" unique_id=1168242237]
+anchor_right = 0.0
+offset_top = 0.0
+offset_right = 1.0
+offset_bottom = 50.0
+grow_horizontal = 1
+
+[node name="CenterContainer" parent="." index="1" unique_id=2126228872]
+anchor_right = 0.0
+anchor_bottom = 0.0
+grow_horizontal = 1
+grow_vertical = 1
+
+[node name="Bouton TP 3_10" parent="CenterContainer/ScrollContainer/GameButtonList" parent_id_path=PackedInt32Array(1288150134) index="1" unique_id=574725350 instance=ExtResource("2_fu7sn")]
+layout_mode = 2
+text = "TP 3 Octobre
+"
