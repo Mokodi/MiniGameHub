@@ -45,5 +45,6 @@ target_scene = ExtResource("2")
 
 [node name="GameButton" parent="CenterContainer/ScrollContainer/GameButtonList" unique_id=589833263 instance=ExtResource("1")]
 layout_mode = 2
-text = "Octrobre  3-10"
+text = "TP Déplacement
+"
 target_scene = ExtResource("3_8saeu")
